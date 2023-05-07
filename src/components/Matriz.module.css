@@ -1,0 +1,33 @@
+.matriz{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    margin: auto 0;
+}
+
+.cell{
+    width: 20rem;
+    height: 20rem;
+    max-width: 50vw;
+    max-height: 60vw;
+    flex-basis: calc(50% - 40px);  
+}
+
+.yellow{
+    background-color: #efb428;
+}
+
+.green{
+    background-color: #a6c64b;
+}
+
+.red{
+    background-color: #ea3e34;
+}
+
+.blue{
+    background-color: #2883cc;
+}

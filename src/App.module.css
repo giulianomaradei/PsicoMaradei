@@ -1,0 +1,52 @@
+.app{
+  font-family: roboto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout{
+  margin: 15px;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  gap: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  border-radius: 10px;
+}
+.logout:hover{
+  background-color: rgb(198, 198, 198);
+
+}
+
+.logoutImage{
+  width: 2rem;
+}
+
+.header{
+  height: 6rem;
+  width: 100vw;
+  position: relative;
+  justify-self: start;
+}
+
+@font-face {
+    font-family: "Roboto";   /*Can be any text*/
+    src: local("RobotoMono-Regular"),
+      url("./Assets/Fonts/RobotoMono-Regular.ttf") format("truetype");
+  }
