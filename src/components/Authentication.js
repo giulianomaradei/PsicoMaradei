@@ -80,6 +80,13 @@ function Authentication(props){
                 setErrorMessage("");
             },3000)
         }
+        if(errorCode === "auth/weak-password"){
+            setErrorMessage("Senha Fraca")
+            setTimeout(()=>{
+                setErrorMessage("");
+            },3000)
+        }
+       
     }
 
     async function signUp(){
